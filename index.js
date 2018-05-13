@@ -19,7 +19,9 @@ function deepestChild() {
   var searcher= ''
   while (child==='')  {
     searcher = search.children[0]
-    
+    if (searcher=undefined) {
+      
+    }
     
   }
 }
