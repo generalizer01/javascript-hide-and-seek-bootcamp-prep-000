@@ -16,13 +16,16 @@ function increaseRankBy(n) {
 function deepestChild() {
   let search = document.querySelector('#grand-node')
   var child = ''
-  var searcher= ''
   while (child==='')  {
     
     if (search.children[0]===undefined) {
       child = search.innerHTML
+      console.log(`We found it! The child is ${child}`)
     }
-    searcher = search.children[0]
+    else {
+      search = search.children[0]
+      console.log('Searching deeper')
+    }
     
   }
 }
