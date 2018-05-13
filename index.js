@@ -20,7 +20,7 @@ function deepestChild() {
   while (child==='')  {
     searcher = search.children[0]
     if (searcher=undefined) {
-      
+      child = 
     }
     
   }
