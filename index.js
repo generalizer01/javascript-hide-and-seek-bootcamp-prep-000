@@ -18,10 +18,11 @@ function deepestChild() {
   var child = ''
   var searcher= ''
   while (child==='')  {
-    searcher = search.children[0]
-    if (searcher=undefined) {
-      child = 
+    
+    if (search.children[0]===undefined) {
+      child = search.innerHTML
     }
+    searcher = search.children[0]
     
   }
 }
