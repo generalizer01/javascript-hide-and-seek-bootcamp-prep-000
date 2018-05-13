@@ -19,7 +19,7 @@ function deepestChild() {
   while (child==='')  {
     
     if (search.children[0]===undefined) {
-      child = search.innerHTML
+      child = search
       console.log(`We found it! The child is ${child}`)
     }
     else {
